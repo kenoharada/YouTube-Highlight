@@ -19,22 +19,22 @@ e.g) https://www.youtube.com/watch?v=hogehoge
 
 3. run url_to_highlight.py, the output will be saved yt_{hogehoge} dir, yt_{hogehoge}/summary.mp4 is highlight of the video
 
-$ python url_to_highlight.py --url https://www.youtube.com/watch?v=hogehoge
+`$ python url_to_highlight.py --url https://www.youtube.com/watch?v=hogehoge`
 
 4. run distinguish.py, this uses deep learning module, so run on GPU is recommended
 
-$ python distinguish.py --ytid yt_{hogehoge}
+`$ python distinguish.py --ytid yt_{hogehoge}`
 
 5. run make_each_person_highlight.py, the ouput will be saved in results dir
 
-$ python make_each_person_highlight.py --ytid yt_{hogehoge}
+`$ python make_each_person_highlight.py --ytid yt_{hogehoge}`
 
 ## Acknowledgements
 This repo's face recognition function is on [FaceX-Zoo](https://github.com/JDAI-CV/FaceX-Zoo).
 I modify face_sdk module in the FaceX-Zoo to detect and recognize faces.
 I really appreciate their valuable efforts.
 
-This project is for final project for [FSDL(Full Stack Deep Learning)](https://fullstackdeeplearning.com/).
+This project is for final project of [FSDL(Full Stack Deep Learning)](https://fullstackdeeplearning.com/).
 I learned a lot from this course, thank you very much for offering.
 
 
