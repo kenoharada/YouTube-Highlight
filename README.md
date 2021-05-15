@@ -34,7 +34,3 @@ This repo's face recognition function is on [FaceX-Zoo](https://github.com/JDAI-
 I modify face_sdk module in the FaceX-Zoo to detect and recognize faces.
 I really appreciate their valuable efforts.
 
-This project is for final project of [FSDL(Full Stack Deep Learning)](https://fullstackdeeplearning.com/).
-I learned a lot from this course, thank you very much for offering.
-
-
